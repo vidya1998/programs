@@ -1,0 +1,25 @@
+<script type="text/javascript">
+function sum() {
+      var num1 = document.getElementById('n1').value;
+      var num2 = document.getElementById('n2').value;
+      var result = parseInt(num1) + parseInt(num2);
+         document.getElementById('n3').value = result;
+}
+</script>
+<html>
+<head>
+</head>
+<center>
+<body>
+<h1> Get A Quick Shipping Rate</h1>
+<h2>Competitive shipping rates designed for your needs.</h2>
+<h2>Number1*<br></h2>
+<input type="number" id="n1"  onkeyup="sum()" style="background-color:pink;width:300;height:30px"/><br>
+<h2>Number2*<br></h2>
+<input type="number" id="n2"  onkeyup="sum()" style="background-color:pink;width:300;height:30px"/><br>
+<h2>sum of Number1,Number2 in a dynamic way*<br></h2>
+<input type="number" id="n3" style="background-color:pink;width:300;height:30px"/><br>
+<h1><input type="button" value="CheckMe" style="background-color:green;height:50px"><br></h1>
+</body>
+</center>
+</html>
